@@ -166,7 +166,7 @@ a{
 	display: block;
     text-align: center;
     margin-top: 10px;
-    font-size: 16px; 
+    font-size: 16px;
     color: #686868;
 }
 .wrapper .desc-cont .dright .content-list i{
@@ -226,7 +226,18 @@ a{
 }
 .charm_link .flexslider .slider li:hover{
 	cursor: pointer;
-	border: 2px solid #eee;
+	/*border: 2px solid #eee;*/
+	border-color: #ddd;
+	box-shadow: 0 0 30px #00AFE4;
+	
+
+}
+.charm_link .flexslider .slider li:hover img{
+	transform:scale(1,1);
+	-ms-transform:scale(1,1); 	/* IE 9 */
+	-moz-transform:scale(1,1); 	/* Firefox */
+	-webkit-transform:scale(1,1); /* Safari 和 Chrome */
+	-o-transform:scale(1,1); 	/* Opera */
 }
 .charm_link .flexslider .slider li img{
 	width: 100%;

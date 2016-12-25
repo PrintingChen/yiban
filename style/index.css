@@ -128,7 +128,7 @@ a{
 	float: right;
 }
 .school-desc{
-	font-weight: bold;
+    font-weight: bold;
     color: #3299CC;
     font-size: 18px;
     margin: 0;
@@ -225,6 +225,7 @@ a{
 	margin-right: 5px;
 	position: relative;
 	transition: all .5s;
+	-webkit-transition: all .5s;
 }
 .charm_link .flexslider .slider li:hover{
 	cursor: pointer;

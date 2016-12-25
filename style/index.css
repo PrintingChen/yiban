@@ -231,14 +231,6 @@ a{
 	border-color: #ddd;
 	box-shadow: 0 0 30px #ddd;
 	transform: translateY(-10px);
-
-}
-.charm_link .flexslider .slider li:hover img{
-	transform:scale(1,1);
-	-ms-transform:scale(1,1); 	/* IE 9 */
-	-moz-transform:scale(1,1); 	/* Firefox */
-	-webkit-transform:scale(1,1); /* Safari 和 Chrome */
-	-o-transform:scale(1,1); 	/* Opera */
 }
 .charm_link .flexslider .slider li img{
 	width: 100%;

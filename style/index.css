@@ -223,13 +223,14 @@ a{
 	height: 175px;
 	float: left;
 	margin-right: 5px;
+	position: relative;
+	transition: all .5s;
 }
 .charm_link .flexslider .slider li:hover{
 	cursor: pointer;
-	/*border: 2px solid #eee;*/
 	border-color: #ddd;
-	box-shadow: 0 0 30px #00AFE4;
-	
+	box-shadow: 0 0 30px #ddd;
+	transform: translateY(-10px);
 
 }
 .charm_link .flexslider .slider li:hover img{
